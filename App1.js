@@ -63,10 +63,11 @@ export default function App() {
       }}
     >
       <Text
-        style={{fontSize: 24,
+        style={{
+<<<<<<< HEAD
+          fontSize: 24,
           color: "#04BFBF",
-          fontFamily: 'Montserrat_700Bold',
-          textAlign: "center"
+          fontFamily: 'Montserrat_700Bold'
         }}
       > 
         Acompanhe a LearningLab de Forma Fácil
@@ -84,8 +85,7 @@ export default function App() {
         fontSize: 16,
         color: "#04BFBF",
         paddingHorizontal:30,
-        paddingVertical:20,
-        textAlign: "center"
+        paddingVertical:20
       }}>
         Não esqueça de acompanhar nossas redes sociais. Nós cuidamos de lembrar você sempre que precisar
       </Text>
@@ -112,6 +112,42 @@ export default function App() {
           >
         </Text>
       </TouchableOpacity>
+
+=======
+          color: "#04BFBF",
+          fontSize: 24
+        }}
+      >
+        Acompanhe a LearninLab de forma fácil.
+      </Text>
+      <Image
+        source={image}
+        style={{
+          height: 100,
+          width: 100
+        }}
+      />
+      <Text
+        style={{
+          fontSize: 24,
+          color: "#04BFBF"
+        }}
+      >
+        Não esqueça de acompanhar nossas redes sociais.
+        Nós cuidamos de lembrar você sempre que precisar.
+      </Text>
+      <TouchableOpacity
+        onPress={() => handle()}
+      >
+      <Text
+        style={{
+          fontSize: 24
+        }}
+      >
+        botão para proximo
+      </Text>
+      </TouchableOpacity>
+>>>>>>> 1e7c49555bef1675424a6274d9dccb5d877e2ff6
     </View>
   );
 }
