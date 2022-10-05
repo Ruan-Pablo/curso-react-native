@@ -66,7 +66,7 @@ export default function App() {
         style={{fontSize: 24,
           color: "#04BFBF",
           fontFamily: 'Montserrat_700Bold',
-          textAlign: "center"
+          textAlign: "center" 
         }}
       > 
         Acompanhe a LearningLab de Forma Fácil
@@ -109,7 +109,7 @@ export default function App() {
 
           }}
         >
-          >
+          ->
         </Text>
       </TouchableOpacity>
     </View>
